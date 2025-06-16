@@ -18,7 +18,7 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "{`${import.meta.env.BASE_URL}images/ideas.svg`}"},
+  { text: "Ideas", imgPath: "/images/ideas.svg"},
   { text: "Concepts", imgPath: "{`${import.meta.env.BASE_URL}images/concepts.svg`}"},
   { text: "Designs", imgPath: "{`${import.meta.env.BASE_URL}images/designs.svg`}"},
   { text: "Code", imgPath: "{`${import.meta.env.BASE_URL}images/code.svg`}"},

@@ -57,7 +57,7 @@ const AppShowcase = () => {
               <div ref={portfolioRef} className="first-project-wrapper">
                 <div className="image-wrapper">
                   <a href="https://Amanjeet-07.github.io/3d-portfolio/">
-                    <img src="/images/project1.png" alt="Portfolio Website Interface" />
+                    <img src="./images/project1.png" alt="Portfolio Website Interface" />
                   </a>
                 </div>
                 <div className="text-content">
@@ -76,7 +76,7 @@ const AppShowcase = () => {
                 <div className="project" ref={festnitrRef}>
                   <div className="image-wrapper bg-[#FFEFDB]">
                     <a href="https://github.com/Amanjeet-07/frontend">
-                      <img src="/images/project3.png" alt="FESTNITR Website Interface" />
+                      <img src="./images/project3.png" alt="FESTNITR Website Interface" />
                     </a>
                   </div>
                   <a className="github-link" href="https://github.com/Amanjeet-07/frontend">
@@ -87,7 +87,7 @@ const AppShowcase = () => {
                 <div className="project" ref={codehuntRef}>
                   <div className="image-wrapper bg-[#FFE7EB]">
                     <a href="https://github.com/Amanjeet-07/CODEHUNT-frontend">
-                      <img src="/images/project2.png" alt="CODEHUNT Website Interface"/>
+                      <img src="./images/project2.png" alt="CODEHUNT Website Interface"/>
                     </a>
                   </div>
                   <a className="github-link" href="https://github.com/Amanjeet-07/CODEHUNT-frontend">

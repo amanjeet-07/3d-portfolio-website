@@ -56,13 +56,13 @@ const AppShowcase = () => {
             <div className="showcaselayout">
               <div ref={portfolioRef} className="first-project-wrapper">
                 <div className="image-wrapper">
-                  <a href="https://Amanjeet-07.github.io/3d-portfolio/">
+                  <a href="https://amanjeet-07.github.io/3d-portfolio-website/">
                     <img src="./images/project1.png" alt="Portfolio Website Interface" />
                   </a>
                 </div>
                 <div className="text-content">
                   <h2>
-                    <a className="github-link" href="https://github.com/Amanjeet-07/3d-portfolio/">
+                    <a className="github-link" href="https://github.com/amanjeet-07/3d-portfolio-website/">
                       Personal Portfolio Website to showcase my Projects, Skills & Experience.
                     </a>
                   </h2>

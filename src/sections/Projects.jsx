@@ -6,7 +6,7 @@ import TitleHeader from "../components/TitleHeader";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const AppShowcase = () => {
+const Projects = () => {
   const sectionRef = useRef(null);
   const portfolioRef = useRef(null);
   const festnitrRef = useRef(null);
@@ -49,7 +49,7 @@ const AppShowcase = () => {
       <div className="w-full h-full md:px-10 px-5">
         <TitleHeader
           title="Things I’ve Worked On"
-          sub="💼 My Projects"
+          sub="💻 My Projects"
         />
         <div className="app-showcase">
           <div className="w-full">
@@ -103,4 +103,4 @@ const AppShowcase = () => {
   );
 };
 
-export default AppShowcase;
+export default Projects;

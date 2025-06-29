@@ -27,7 +27,7 @@ const Hero = () => {
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
-                Shaping
+                I am a
                 <span className="slide">
                   <span className="wrapper">
                     {words.map((word, index) => (
@@ -46,12 +46,19 @@ const Hero = () => {
                   </span>
                 </span>
               </h1>
-              <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
+              <h1>Code. Strategy. Impact.</h1>
+              {/* <h1>From Full-Stack to Full-Scale.</h1> */}
+              {/* <h1>that Deliver Results</h1> */}
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Aman, a developer with a passion for code.
+              Techie by training. Strategist in the making.<br />
+            </p>
+            <p className="md:text-xl relative z-10 pointer-events-none">
+              Hey there! I'm Aman, an MBA student with a passion for<br />
+              building innovative solutions, blending business strategy with tech,<br />
+              and transforming tech ideas into a tangible business impact.<br />
+              I'm all about learning, creating, and growing.
             </p>
 
             <Button

@@ -6,7 +6,7 @@ import TechIconCardExperience from "../components/models/tech_logos/TechIconCard
 import { techStackIcons } from "../constants";
 // import { techStackImgs } from "../constants";
 
-const TechStack = () => {
+const Skills = () => {
   // Animate the tech cards in the skills section
   useGSAP(() => {
     // This animation is triggered when the user scrolls to the #skills wrapper
@@ -94,4 +94,4 @@ const TechStack = () => {
   );
 };
 
-export default TechStack;
+export default Skills;
